@@ -4,6 +4,7 @@ from nltk.stem.porter import PorterStemmer
 import string
 import nltk
 import streamlit as st
+nltk.download('punkt')
 
 ps = PorterStemmer()
 
