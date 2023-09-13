@@ -52,8 +52,8 @@ if st.button('Check Spam'):
     # Step .03: Predict
     output = model.predict(vectorized_text)
     if output:
-        st.header('Spam')
+        st.header(:red['Spam'])
     else:
-        st.header('Not Spam')
+        st.header(:green['Not Spam'])
 
 
