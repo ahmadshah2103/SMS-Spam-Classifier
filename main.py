@@ -5,6 +5,7 @@ import string
 import nltk
 import streamlit as st
 nltk.download('punkt')
+nltk.download('stopwords')
 
 ps = PorterStemmer()
 
